@@ -92,6 +92,7 @@ section{
     margin-top: 30px;
     margin-right: 30px;
     border-radius: 50px;
+    transition: 0.7s ease;
 }
 .bottoms a:hover{
     background-color: darkcyan;
@@ -101,15 +102,217 @@ section{
     display: flex;
     justify-content:  center;
     flex-direction: row;
+    padding: 200px 400px;
+    margin: 10px;
+}
+.text1 h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+.text1 h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.text1 p{
+    font-size: 30px;
 }
 .HTML .HTMLimg{
-    width: 800px;
-    height: 800px;
+    width: 2000px;
+    height: 0px;
     display: inline-block;
-    margin-left: 800px;
+    padding-left: 100px;
+    padding-top: 60px;
 }
 
 .HTMLimg img{
     width: 100%;
-    position: relative;
+    position: static;
+}
+.bott{
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: darkblue;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px 80px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border-radius: 50px;
+    transition: 0.7s ease;
+}
+.bott:hover{
+    background-color: darkcyan;
+    transform: scale(1.1);
+}
+
+.CSS {
+    display: flex;
+    justify-content:  center;
+    flex-direction: row;
+    padding: 100px 200px;
+    margin: 10px;
+    background: url(../img/programming-g09a2213f9_1920.png) no-repeat;   
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.text2{
+    margin-left: 100px;
+    background-color: white;
+    padding: 100px;
+    border-radius: 25px;
+}
+.text2 h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+.text2 h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.text2 p{
+    font-size: 30px;
+}
+.CSS .CSSimg{
+    width: 3000px;
+    height: 0px;
+    display: inline-block;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+.CSSimg img{
+    width: 100%;
+    position: static;
+}
+.bott{
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: hsl(240, 100%, 27%);
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px 80px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border-radius: 50px;
+    transition: 0.7s ease;
+}
+.bott:hover{
+    background-color: darkcyan;
+    transform: scale(1.1);
+}
+.Javaimg{
+    width: 100%;
+    position: static;
+    padding-top: 100px;
+}
+.count{
+    padding: 50px 200px;
+    background: url(../img/coding-g9c59eb41a_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+.back{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 70px;
+}
+table{
+    display: inline-block;
+    padding: 10px 220px;
+    align-items: center;
+}
+table .icons{
+    color:darkblue;
+    font-size: 150px;
+    border: solid 1px;
+}
+table .icons th{
+    padding: 0px 100px;
+}
+table .num{
+    font-size: 30px;
+    font-weight: bold;
+}
+table .text{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.footer{
+    background-color: #f0f0f0;
+    color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footer .list{
+    font-size: 20px;
+    padding: 0px 50px;
+    font-weight: 500;
+    list-style-type: none;
+}
+.footer .list span{
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer .soical-icons {
+    font-size: 30px;
+    padding: 50px;
+}
+.footer .soical-icons a {
+    padding: 20px;
+}
+.footer .soical-icons .text {
+    text-align: center;
+}
+.send {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.send h3 {
+    padding-bottom: 50px;
+    font-size: 50px;
+    color: darkblue;
+}
+.send form {
+    font-size: 25px;
+    font-weight: 400;
+    color: darkblue;
+}
+.send form input {
+    padding-right: 500px;
+    border-color: hsl(240, 100%, 90%);
+}
+.send form .message{
+    padding-bottom: 200px;
+}
+.send form .name{
+    padding-bottom: 20px;
+}
+.send form button {
+    color: white;
+    margin: 20px 0px;
+    padding: 5px 50px;
+    font-size: 25px;
+    font-weight: 400;
+    transition: 0.7s ease;
+    border: none;
+    background: darkblue;
+    border-radius: 50px;
+}
+.send form button:hover {
+    transform: scale(1.1);
+    background-color: darkcyan;
+
+}
+.send form div {
+    margin: 10px;
 }
