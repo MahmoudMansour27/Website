@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: cursive;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 200px;
+    padding: 0rem 12.5rem;
 }
 header a{
     text-decoration: none;
@@ -25,9 +25,11 @@ header a{
     text-decoration: none;
     color: darkblue;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 70px;
+    font-weight: 500;
+    font-size: 3.125rem;
     padding-left: 90px;
+    margin: 0.875rem;
+
 
 }
 .navtaps a{
@@ -51,23 +53,39 @@ header img {
     position: fixed;
   }
 .navtaps a:hover{
-    color: darkcyan;
+    color: #667292;
 }
 section{
     padding: 200px 200px
 }
 .main {
     width: 100%;
-    min-width: 100wh;
-    display: flex;
-    align-items: center;
-    background: url(../img/business-gf079df6a4_1920.jpg) no-repeat;
-    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../img/business-gf079df6a4_1920.jpg);
     background-position: center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 30s infinite ease-in-out;
+}
+@keyframes change{
+    0%{background-image: url(../img/business-gf079df6a4_1920.jpg);}
+    20%{background-image: url(../img/software-development-g4a816810f_1920.jpg);}
+    40%{background-image: url(../img/coding-g9c59eb41a_1920.jpg);}
+    60%{background-image: url(../img/computer-gc7648328c_1920.jpg);}
+    80%{background-image: url(../img/business-gd988d166e_1920.jpg);}
+    100%{background-image: url(../img/laptop-g3faa408b1_1920.jpg);}
+}
+.main .container{
+    padding: 2rem;
+    background-color: rgba(240, 240, 240, 80%);
+    border-radius: 50px;
 }
 .main h4{
-    color: #f0f0f0;
+    color: #667292;
     font-size: 50px;
     font-weight: 700;
 }
@@ -77,7 +95,7 @@ section{
     font-weight: 800;
 }
 .main h3{
-    color: #f0f0f0;
+    color: #667292;
     font-size: 50px;
     font-weight: 700;  
 }
@@ -95,7 +113,7 @@ section{
     transition: 0.7s ease;
 }
 .bottoms a:hover{
-    background-color: darkcyan;
+    background-color: #667292;
     transform: scale(1.1);
 }
 .HTML {
@@ -200,7 +218,7 @@ section{
     transition: 0.7s ease;
 }
 .bott:hover{
-    background-color: darkcyan;
+    background-color: #667292;
     transform: scale(1.1);
 }
 .Javaimg{
@@ -224,8 +242,9 @@ section{
 }
 table{
     display: inline-block;
-    padding: 10px 220px;
+    padding: 0.16rem 0.25re;
     align-items: center;
+    width: 100%;
 }
 table .icons{
     color:darkblue;
@@ -243,6 +262,9 @@ table .text{
     font-size: 30px;
     font-weight: bold;
     padding-bottom: 50px;
+}
+.footer-table {
+    margin-right: 41.875rem;
 }
 .footer{
     background-color: #f0f0f0;
@@ -264,6 +286,9 @@ table .text{
 .footer .soical-icons {
     font-size: 30px;
     padding: 50px;
+    width: 100%;
+    text-align: center;
+    
 }
 .footer .soical-icons a {
     padding: 20px;
