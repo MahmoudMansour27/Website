@@ -2,8 +2,8 @@
 
 *{
     font-family: cursive;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -27,7 +27,7 @@ header a{
     text-transform: uppercase;
     font-weight: 500;
     font-size: 3.125rem;
-    padding-left: 90px;
+    padding-left: 5.625rem;
     margin: 0.875rem;
 
 
@@ -36,27 +36,44 @@ header a{
     color: darkblue;
     text-decoration: none;
     font-weight: bold;
-    padding-left: 50px;
-    font-size: 20px;
+    padding-left: 3.125rem;
+    font-size: 1.25rem;
+    transition: 0.5s ease;
 }
 .logo{
-    padding-top: 12px;
-    margin: 0px;
+    padding-top: 0.75rem;
+    margin: 0rem;
     position: fixed;
-    width: 10px;
+    width: 0.625rem;
     text-decoration: none;
 }
 header img {
     float: left;
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5re;
     position: fixed;
   }
 .navtaps a:hover{
     color: #667292;
 }
+header .sign a {
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: darkblue;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.2rem 2rem;
+    margin-left: 3.125rem;
+    border-radius: 3.125rem;
+    transition: 0.7s ease;
+}
+header .sign a:hover {
+    color: #f0f0f0;
+    transform: scale(1.1);
+}
 section{
-    padding: 200px 200px
+    padding: 12.5rem 12.5rem;
 }
 .main {
     width: 100%;
@@ -82,34 +99,34 @@ section{
 .main .container{
     padding: 2rem;
     background-color: rgba(240, 240, 240, 80%);
-    border-radius: 50px;
+    border-radius: 3.125rem;
 }
 .main h4{
     color: #667292;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 700;
 }
 .main h1{
     color: darkblue;
-    font-size: 100px;
+    font-size: 6.25rem;
     font-weight: 800;
 }
 .main h3{
     color: #667292;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 700;  
 }
 .bottoms a{
     text-decoration: none;
     color: #f0f0f0;
     background-color: darkblue;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
     display: inline-block;
-    padding: 2px 80px;
-    margin-top: 30px;
-    margin-right: 30px;
-    border-radius: 50px;
+    padding: 0.125rem 5rem;
+    margin-top: 1.875rem;
+    margin-right: 1.875rem;
+    border-radius: 3.125rem;
     transition: 0.7s ease;
 }
 .bottoms a:hover{
@@ -118,28 +135,35 @@ section{
 }
 .HTML {
     display: flex;
-    justify-content:  center;
+    justify-content: space-between;
     flex-direction: row;
-    padding: 200px 400px;
-    margin: 10px;
+    padding: 0rem 0rem;
+    margin: 10rem 10rem ;
+}
+.text1 {
+    width: 100rem;
 }
 .text1 h1{
-    font-size: 100px;
+    width: 100%;
+    font-size: 6.25rem;
     font-weight: bold;
 }
 .text1 h3{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .text1 p{
-    font-size: 30px;
+    font-size: 1.875rem;
+}
+.text1 img {
+    width: 100%;
 }
 .HTML .HTMLimg{
-    width: 2000px;
-    height: 0px;
+    width: 125rem;
+    height: 0rem;
     display: inline-block;
-    padding-left: 100px;
-    padding-top: 60px;
+    padding-left: 6.25rem;
+    padding-top: 3.75rem;
 }
 
 .HTMLimg img{
@@ -150,13 +174,13 @@ section{
     text-decoration: none;
     color: #f0f0f0;
     background-color: darkblue;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
     display: inline-block;
-    padding: 2px 80px;
-    margin-top: 30px;
-    margin-right: 30px;
-    border-radius: 50px;
+    padding: 0.125rem 5rem;
+    margin-top: 1.875rem;
+    margin-right: 1.875rem;
+    border-radius: 3.125rem;
     transition: 0.7s ease;
 }
 .bott:hover{
@@ -166,38 +190,41 @@ section{
 
 .CSS {
     display: flex;
-    justify-content:  center;
+    justify-content:  space-between;
     flex-direction: row;
-    padding: 100px 200px;
-    margin: 10px;
+    padding: 6.25rem;
+    margin: 0.625rem;
     background: url(../img/programming-g09a2213f9_1920.png) no-repeat;   
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 .text2{
-    margin-left: 100px;
+    margin-left: 6.25rem;
     background-color: white;
-    padding: 100px;
-    border-radius: 25px;
+    padding: 3.125rem;
+    border-radius: 1.5625rem;
 }
 .text2 h1{
-    font-size: 100px;
+    font-size: 6.25rem;
     font-weight: bold;
 }
 .text2 h3{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
+.CSS img {
+    margin-top: 6rem;
+}
 .text2 p{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 .CSS .CSSimg{
-    width: 3000px;
-    height: 0px;
+    width: 187.5rem;
+    height: 0rem;
     display: inline-block;
-    padding-left: 100px;
-    padding-top: 150px;
+    padding-left: 6.25rem;
+    padding-top: 9.375rem;
 }
 
 .CSSimg img{
@@ -208,60 +235,68 @@ section{
     text-decoration: none;
     color: #f0f0f0;
     background-color: hsl(240, 100%, 27%);
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
     display: inline-block;
-    padding: 2px 80px;
-    margin-top: 30px;
-    margin-right: 30px;
-    border-radius: 50px;
+    padding: 0.125rem 5rem;
+    margin-top: 1.875rem;
+    margin-right: 1.875rem;
+    border-radius: 3.125rem;
     transition: 0.7s ease;
 }
 .bott:hover{
     background-color: #667292;
     transform: scale(1.1);
 }
+.HTML .javas {
+    margin-top: 6rem;
+}
 .Javaimg{
     width: 100%;
     position: static;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 .count{
-    padding: 50px 200px;
+    padding: 3.125rem 12.5rem;
     background: url(../img/coding-g9c59eb41a_1920.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 .back{
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 70px;
+    border-radius: 4.375rem;
 }
 table{
     display: inline-block;
-    padding: 0.16rem 0.25re;
+    padding: 0.16rem 0.25rem;
     align-items: center;
     width: 100%;
 }
 table .icons{
     color:darkblue;
-    font-size: 150px;
-    border: solid 1px;
+    font-size: 9.375rem;
 }
 table .icons th{
-    padding: 0px 100px;
+    padding: 0rem 6.25rem;
 }
 table .num{
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
 }
 table .text{
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
+}
+table .icons i {
+    transition: 0.5s ease;
+}
+table .icons i:hover {
+    color: #667292;
 }
 .footer-table {
     margin-right: 41.875rem;
@@ -271,73 +306,114 @@ table .text{
     color: darkblue;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 3.125rem;
 }
 .footer .list{
-    font-size: 20px;
-    padding: 0px 50px;
+    font-size: 1.25rem;
+    padding: 0rem 3.125rem;
     font-weight: 500;
     list-style-type: none;
 }
 .footer .list span{
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: bold;
 }
 .footer .soical-icons {
-    font-size: 30px;
-    padding: 50px;
+    font-size: 1.875rem;
+    padding: 2.125rem;
     width: 100%;
     text-align: center;
     
 }
 .footer .soical-icons a {
-    padding: 20px;
+    padding: 1.25rem;
 }
 .footer .soical-icons .text {
     text-align: center;
 }
 .send {
-    padding: 100px 200px;
+    padding: 6.25rem 2.5rem;
     display: flex;
     justify-content: space-between;
-    margin: 0px 200px;
+    margin: 0rem 12.5rem;
 }
 .send h3 {
-    padding-bottom: 50px;
-    font-size: 50px;
+    padding-bottom: 3.125rem;
+    font-size: 3.125rem;
     color: darkblue;
 }
 .send form {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 400;
     color: darkblue;
 }
 .send form input {
-    padding-right: 500px;
+    padding-right: 31.25rem;
     border-color: hsl(240, 100%, 90%);
 }
 .send form .message{
-    padding-bottom: 200px;
+    padding-bottom: 12.5rem;
 }
 .send form .name{
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 .send form button {
     color: white;
-    margin: 20px 0px;
-    padding: 5px 50px;
-    font-size: 25px;
+    margin: 1.25rem 0rem;
+    padding: 0.3125rem 3.125rem;
+    font-size: 1.5625rem;
     font-weight: 400;
     transition: 0.7s ease;
     border: none;
     background: darkblue;
-    border-radius: 50px;
+    border-radius: 3.125rem;
 }
 .send form button:hover {
     transform: scale(1.1);
-    background-color: darkcyan;
+    background-color: #667292;
 
 }
 .send form div {
-    margin: 10px;
+    margin: 0.625rem;
+}
+
+/*Course-----------------------------------------------------------------------------*/
+body .HTMLmain {
+    background: url(../img/computer-gc7648328c_1920.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5rem;
+
+}
+.HTMLmain .container{
+    padding: 2rem;
+    border-radius: 3.125rem;
+    display: inline-block;
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+}
+.HTMLmain h1{
+    color: #f0f0f0;
+    font-size: 11.25rem;
+    font-weight: 800;
+    text-align: center;
+}
+.tabs .intabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 37.5rem;
+    padding: 1.25rem;
+    margin: 3.125rem auto;
+}
+.tabs .intabs label {
+    font-size: 2rem;
+    background: #f0f0f0;
+    font-weight: bold;
+}
+.tabs input[type="radio"] {
+    display: none;
+}
+.tabs .silder {
+    order: 1;
 }
