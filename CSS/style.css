@@ -21,16 +21,13 @@ header{
 header a{
     text-decoration: none;
 }
-.logoText{
+header .logoicon i{
     text-decoration: none;
     color: darkblue;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 3.125rem;
-    padding-left: 5.625rem;
     margin: 0.875rem;
-
-
 }
 .navtaps a{
     color: darkblue;
@@ -399,21 +396,90 @@ body .HTMLmain {
     font-weight: 800;
     text-align: center;
 }
-.tabs .intabs {
+.tabs {
+    margin: 0rem;
+    padding: 0rem;
+}
+.tabs .bottons_div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0rem;
+}
+.tabs .bottons_div .bottons {
+    width: 100%;
+    border: none;
+    background-color: #f0f0f0;
+    transition-duration: 0.7s;
+}
+.tabs .bottons_div .bottons:hover {
+    background-color: #667292;
+}
+.tabs .bottons_div .bottons span {
+    display: inline;
+    font-size: 1.2rem;
+    display: flex;
+    margin: 0.5rem;
+    display: inline-block;
+    text-align: center;
+}
+/*
+.silder {
+    margin: 2rem;
+    border: #667292 solid 1px;
+    overflow: hidden;
+}
+.silder .mainContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200%;
+    transition: 1s;
+}
+.silder .mainContainer {
+    margin: 0.5rem;
+    border: #667292 solid 1px;
+    overflow: hidden;
+}
+#tow:checked ~ .mainContainer {
+    margin-left: 100%;
+}
+.silder .mainContainer .mainCard .cards {
+    width: calc(100% / 2 - 0.625rem);
     display: flex;
     flex-wrap: wrap;
-    max-width: 37.5rem;
-    padding: 1.25rem;
-    margin: 3.125rem auto;
+    margin: 0rem 1.25rem;
+    justify-content: space-between;
 }
-.tabs .intabs label {
-    font-size: 2rem;
-    background: #f0f0f0;
+.silder .silderContainer .card {
+    border: #667292 solid 1px;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 21rem;
+    overflow: hidden;
+}
+.silder .silderContainer .card img {
+    width: 100%;
+}
+.silder .silderContainer .card {
+    text-align: center;
+}
+.silder .silderContainer .card .belowImg .more a {
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: darkblue;
+    font-size: 1rem;
     font-weight: bold;
+    display: inline-block;
+    padding: 0.1rem 5.3rem;
+    margin-left: 0rem   ;
+    border-radius: 3.125rem;
+    transition: 0.7s ease;
 }
-.tabs input[type="radio"] {
-    display: none;
+.silder .silderContainer .card .belowImg .more a:hover {
+    color: #f0f0f0;
+    transform: scale(1.1);
 }
-.tabs .silder {
-    order: 1;
+.silder .silderContainer .card .belowImg p {
+    font-size: 0.7rem;
 }
+*/

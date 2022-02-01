@@ -11,7 +11,7 @@
 <body>
     <!--Taps-->
     <header>
-        <a href="../HTML/index.html"><div class="logo"><img src="/home/mahmoud/Documents/programming 🤤️👨‍💻️/projects/Web development/Website/img/education.png"></div><div class="logoText">Dersler</div></a>
+        <a class ="logoicon" href="../HTML/index.html"><i class="fab fa-dyalog"></i></a>
         <nav class="navtaps">
             <a href="../HTML/index.html">Home</a>
             <a href="../HTML/Courses.html">Courses</a>
@@ -27,30 +27,32 @@
     </section>
     <!--interal taps-->
     <section class="tabs">
-        <div class="intabs"> 
-            <input type="radio" id="html" name="mytabs" checked="checked">
-            <label class="lable" for="html">HTML</label>  
-            <div class="sider">
-                <h2>Beginner Level</h2>
-                <p>silder silder silder silder</p>
-            </div>
-        </div>
-        <div class="intabs"> 
-            <input type="radio" id="css" name="mytabs">
-            <label class="lable" for="css">CSS</label>  
-            <div class="sider">
-                <h2>Beginner Level</h2>
-                <p>silder silder silder silder</p>
-            </div>
-        </div>
-        <div class="intabs"> 
-            <input type="radio" id="javas" name="mytabs">
-            <label class="lable" for="javas">JavaScript</label>  
-            <div class="sider">
-                <h2>Beginner Level</h2>
-                <p>silder silder silder silder</p>
-            </div>
-        </div>
+    <div class="bottons_div">
+        <button class="bottons" onclick="openCity('HTML')"><span>HTML</span></button>
+        <button class="bottons" onclick="openCity('Paris')"><span>London</span></button>
+        <button class="bottons" onclick="openCity('Tokyo')"><span>London</span></button>
+    </div>
+    <div id="HTML" class="city silder">
+        <p>adafasfndj  asnciasncasn</p>
+    </div>  
+    <div id="Paris" class="city" style="display:none">
+        <h2>Paris</h2>
+        <p>Paris is the capital of France.</p>
+    </div>  
+    <div id="Tokyo" class="city" style="display:none">
+        <h2>Tokyo</h2>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "block";
+        }   
+    </script>
     </section>
 </body>
 </html>
